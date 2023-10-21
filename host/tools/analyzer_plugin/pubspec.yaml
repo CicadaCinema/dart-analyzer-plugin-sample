@@ -1,14 +1,12 @@
 name: dartcode_plugin_4223_plugin
-description: A starting point for Dart libraries or applications.
 version: 1.0.0
-# homepage: https://www.example.com
 
 environment:
-  sdk: '>=2.18.0 <3.0.0'
+  sdk: ^3.0.0
 
 dependencies:
-  analyzer:
-  analyzer_plugin:
+  analyzer: ^6.3.0
+  analyzer_plugin: ^0.11.3
 
 dev_dependencies:
   lints: ^2.0.0
